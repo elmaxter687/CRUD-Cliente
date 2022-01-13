@@ -24,8 +24,8 @@ function cargarDatos() {
 }
 
 function crear() {
-  let n = document.querySelector("#nombre").value;
-  let a = document.querySelector("#apellido").value;
+  var n = document.querySelector("#nombre").value;
+  var a = document.querySelector("#apellido").value;
   personas = [...personas, { nombre: n, apellido: a }];
   limpiarForm();
   cargarDatos();
