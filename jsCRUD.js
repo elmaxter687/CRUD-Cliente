@@ -1,5 +1,5 @@
-let datos, i;
-let personas = [
+var datos, i;
+var personas = [
   { nombre: "Juan", apellido: "Hernández" },
   { nombre: "Adrian", apellido: "Domínguez" },
   { nombre: "Luis", apellido: "López" },
@@ -7,7 +7,7 @@ let personas = [
   { nombre: "Pedro", apellido: "García" },
   { nombre: "Juan", apellido: "Pérez" }
 ];
-let panel = document.querySelector("#panel");
+var panel = document.querySelector("#panel");
 
 function limpiarForm() {
   document.querySelector("#nombre").value = "";
